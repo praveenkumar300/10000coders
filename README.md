@@ -8,7 +8,7 @@ It will serve as a **learning workspace** where I complete tasks, practice assig
 
 ## 📂 Repository Structure
 
-10000coders/
+10000coders
 ├── front/     
 ├── backend/   
 └── projects/   
