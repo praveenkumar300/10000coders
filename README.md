@@ -11,6 +11,8 @@ It will serve as a **learning workspace** where I complete tasks, practice assig
 10000coders/
 
 ├── front/      # Frontend learning tasks & mini-projects. 
+
 ├── backend/    # Java language - Backend tasks & APIs (to be added).
+
 └── projects/   # Future real-world projects (to be added).
 
