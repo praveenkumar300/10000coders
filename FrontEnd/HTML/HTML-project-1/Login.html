@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <style>
+        .login {
+            max-width: 300px;
+            margin: auto;
+            padding: 1em;
+            border: 1px solid #ccc;
+            border-radius: 1em;
+            background-color: antiquewhite;
+            margin-top: 10%;
+            font-weight: 900;
+            color: rgb(73, 6, 155);
+            
+        }
+        .login h2 {
+            margin-bottom: 1em;
+            color: tomato;
+            text-align: center;
+        }
+
+        .login input {
+            width: 90%;
+            padding: 0.5em;
+            margin: 10px 0;
+        }
+        .login input[type="submit"] {
+            background-color: #4CAF50;
+            width: 40%;
+            color: whitesmoke;
+            font-weight: 700;
+            border: none;
+            cursor: pointer;
+            margin-left: 30%;
+            margin-right: 30%;
+            border-radius: 0.3em;
+        }
+        .login input[type="submit"]:hover {
+            background-color: #044507;
+        }
+        p {
+            text-align: center;
+            font-weight: 500;
+        }
+        a {
+            text-decoration: none;
+            color: blue;
+            font-weight: 600;
+        }
+    </style>
+</head>
+<body>
+    
+    <Form action="/index.html" class="login">
+        <h2 id="title">Login</h2>
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="username" required><br><br>
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required><br><br>
+        <input type="submit" value="Login">
+        <p>If not regiterd? <a href="registration.html">Regiter</a> here.</p>
+    </Form>
+</body>
+</html>

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>registration</title>
+    <style>
+        .registration {
+            max-width: 300px;
+            margin: auto;
+            padding: 1em;
+            border: 1px solid #b47d7d;
+            margin-top: 4em;
+            border-radius: 5px;
+            background-color: rgb(172, 244, 244);
+            font-weight: 900;
+            color: rgb(73, 6, 155);
+        }
+        .registration h2 {
+            text-align: center;
+            color: rgb(235, 135, 13);
+        }
+        .registration input {
+            width: 90%;
+            padding: 0.5em;
+            margin: 10px;
+        }
+        .registration input[type="submit"] {
+            background-color: #4CAF50;
+            width: 40%;
+            color: whitesmoke;
+            font-weight: 700;
+            border: none;
+            cursor: pointer;
+            margin-left: 30%;
+            margin-right: 30%;
+            border-radius: 0.3em;
+        }
+
+        .registration input[type="submit"]:hover {
+            background-color: #044507;
+        }
+    </style>
+</head>
+<body>
+    <form action="Login.html" class="registration">
+        <h2>Registration Form</h2>
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="username" required><br><br>
+        <label for="mobile">mobile:</label>
+        <input type="tel" id="mobile" name="mobile" required><br><br>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required><br><br>
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required><br><br>
+        <input type="submit" value="Register">
+    </form>
+</body>
+</html>
